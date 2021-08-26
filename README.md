@@ -5,7 +5,7 @@ SMS notifier for email
 # Steps to setup
 ## Clone the repository
 
-`wget https://github.com/vamzi/sms-notifier.git`
+`git clone https://github.com/vamzi/sms-notifier.git`
 
 ## Create a .env file with following template
 ### Setup your twilio account
