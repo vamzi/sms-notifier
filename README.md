@@ -25,6 +25,10 @@ SMS_SEND_MOBILE=+1XXXXXXXXXX
 SMS_RECEIVE_MOBILE=+1XXXXXXXXXX
 ```
 
+## Now install dependencies
+
+`npm i`
+
 ## Now start the app
 
 `npm start`
