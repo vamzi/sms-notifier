@@ -1,0 +1,10 @@
+[Unit]
+Description=sms-notifier
+
+[Service]
+User=<USERNAME>
+WorkingDirectory=<PATH TO CLONED REPO>
+ExecStart=/usr/bin/node <PATH TO CLONED REPO>/app.js > <PATH TO CLONED REPO>/sms-notifier.log
+
+[Install]
+WantedBy=multi-user.target

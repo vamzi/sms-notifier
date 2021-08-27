@@ -16,7 +16,7 @@ notifier(imap)
       const bodyRegex = new RegExp(process.env.MAIL_BODY_REGEX)
       if(mail.subject.match(subjectRegex)){
           sendSms(`Check your email for subject match subject: ${mail.subject}`)
-      }else if(mail.body.match(bodyRegex)){
+      }else if(mail.html.match(bodyRegex)){
           sendSms(`Check your email for body match subject: ${mail.subject}`)
       }
   })
