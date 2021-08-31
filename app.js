@@ -7,6 +7,7 @@ const imap = {
   host: process.env.IMAP_HOST,
   port: process.env.IMAP_PORT, // imap port
   tls: true,// use secure connection
+  markSeen: false,
   tlsOptions: { rejectUnauthorized: false }
 };
  
